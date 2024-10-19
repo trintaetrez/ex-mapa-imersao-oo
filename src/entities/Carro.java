@@ -16,8 +16,7 @@ public class Carro {
     }
 
     public String imprimirResumoCarro() {
-        String msg = "Id: " + this.id + "\n" + "Modelo: " + this.modelo + "\n";
-        msg = "Quilometragem: " + this.quilometragem + "\n" + "Valor venda: " + this.valorVenda;
+        String msg = "Id: " + this.id + "\n" + "Modelo: " + this.modelo + "\nQuilometragem: " + this.quilometragem + "\n" + "Valor venda: " + this.valorVenda;
         return msg;
     }
 

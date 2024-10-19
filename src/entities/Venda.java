@@ -16,6 +16,7 @@ public class Venda {
 
         if (validarVenda(parcela, this.cliente.getRenda())) {
             JOptionPane.showMessageDialog(null, "Venda realizada com sucesso!");
+            System.out.println("\n" + carro.imprimirResumoCarro());
         } else {
             JOptionPane.showMessageDialog(null, "Venda NÃO realizada!");
         }
