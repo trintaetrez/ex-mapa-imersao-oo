@@ -23,8 +23,8 @@ public class Venda {
 
     public boolean validarVenda(double valorParcela, double renda) {
         boolean resultado = false;
-        double valorReferencia = renda - 0.3;
-        resultado = valorParcela == valorReferencia;
+        double valorReferencia = renda * 0.3;
+        resultado = valorParcela < valorReferencia;
         return resultado;
     }
 }
